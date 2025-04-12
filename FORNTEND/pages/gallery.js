@@ -21,10 +21,10 @@ export default function gallery() {
                             <Link href ='/gallery#galleryimages'><button>VIEW MORE</button></Link>
                         </div>
                         <div className="rightimgsec">
-                            <img src="https://res.cloudinary.com/drvwdwlzx/image/upload/v1744310694/sac_f3q9oz.jpg" alt=""/>
+                            <img src="https://res-console.cloudinary.com/drvwdwlzx/thumbnails/v1/image/upload/v1744483413/c2FjX2xlY2Rhcw==/drilldown" alt=""/>
                             <div className="r_img_top">
-                                <img src="https://res.cloudinary.com/drvwdwlzx/image/upload/v1744310918/Untitled_design_l38dtn.jpg" alt=""/>
-                                <img src="https://res.cloudinary.com/drvwdwlzx/image/upload/v1744311220/Untitled_design_1_uyuluu.jpg" alt=""/>
+                                <img src="https://res-console.cloudinary.com/drvwdwlzx/thumbnails/v1/image/upload/v1744483414/VW50aXRsZWRfZGVzaWduX2I5dnFqeQ==/drilldown" alt=""/>
+                                <img src="https://res-console.cloudinary.com/drvwdwlzx/thumbnails/v1/image/upload/v1744483413/VW50aXRsZWRfZGVzaWduXzFfdHl0bndh/drilldown" alt=""/>
                             </div>
                         </div>
                     </div>
