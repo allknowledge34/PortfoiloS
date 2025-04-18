@@ -184,12 +184,14 @@ export default function Home() {
               </div>
               <div className=" lead" data-aos="fade-up"> I specialize in crafting comprehensive digital solutions, seamlessly integrating my expertise as a software engineer, web developer, full-stack developer, and content creator .</div>
               <div className=" hero_btn_box" data-aos="fade-up">
-                <Link href='/' download={'/img/resume.pdf'} className='download_cv'>Download CV <BiDownload /></Link>
+                <a href="/img/resume.pdf" download className="download_cv">
+                  Download CV <BiDownload />
+                </a>
                 <ul className="hero_social">
-                  <li> < a href="/"><FaTwitter /></a></li>
-                  <li> < a href="/"><LiaBasketballBallSolid /></a></li>
-                  <li> < a href="/"><GrLinkedinOption /></a></li>
-                  <li> < a href="/"><FaGithub /></a></li>
+                  <li> <a Link href="https://x.com/home?lang=en"><FaTwitter /></a></li>
+                  <li> < a href="https://www.youtube.com/@AiCodingHub"><LiaBasketballBallSolid /></a></li>
+                  <li> < a href="https://www.linkedin.com/in/sachin-kumar-355203340/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><GrLinkedinOption /></a></li>
+                  <li> < a href="https://github.com/allknowledge34"><FaGithub /></a></li>
 
                 </ul>
               </div>
