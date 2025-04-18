@@ -11,17 +11,17 @@ export default function Header() {
    const [darkMode, setDarkMode] = useState(true);
 
    useEffect(()=> {
-    const isDarkMode = localStorage.getItem('darkMode') === 'true';
+    const isDarkMode = localStorage.getItem('darkMode') === 'false';
     setDarkMode(isDarkMode)
    },[])
 
    useEffect(() => {
     if (darkMode) {
         document.body.classList.add('dark')
-        localStorage.setItem('darkMode', true)
+        localStorage.setItem('darkMode', false)
     }else{
         document.body.classList.remove('dark')
-        localStorage.setItem('darkMode', false)
+        localStorage.setItem('darkMode', true)
     }
    }, [darkMode])
 
